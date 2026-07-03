@@ -15,7 +15,7 @@ class UserShimmer extends StatelessWidget {
         margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
         padding: const EdgeInsets.all(16),
         decoration: BoxDecoration(
-          color: theme.cardTheme.color ?? Colors.white),
+          color: theme.cardTheme.color ?? Colors.white,
           borderRadius: BorderRadius.circular(16),
           border: Border.all(
             color: theme.cardTheme.shape is RoundedRectangleBorder
